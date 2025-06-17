@@ -1,22 +1,26 @@
 # Autoencoder-and-Neural-Network-Design
 
-## 🧠 Project Overview
+## 📚 Project Overview
+This repository contains two deep learning models trained on the **Fashion-MNIST** dataset:
 
-This project involves building and evaluating two deep learning models on the Fashion-MNIST dataset:
+- 🧬 An **Autoencoder** for unsupervised image reconstruction and generation.
+- 🧠 A **Feedforward Neural Network Classifier** for supervised multi-class classification.
 
-1. An **Autoencoder** for image reconstruction and generation.
-2. A **Feedforward Neural Network Classifier** for multi-class classification of clothing items.
-
----
-
-## 🗂️ Contents
-
-- `autoencoder.py` – Autoencoder architecture and training
-- `classifier.py` – Classifier model and training loop
-- `utils.py` – Helper functions for data loading and visualization
-- `images/` – Contains plots, reconstructions, and confusion matrix
+Both models are implemented **from scratch** using PyTorch and support complete training, evaluation, and visualization pipelines.
 
 ---
+
+## 📂 File Structure
+
+```
+fashion-mnist-hw2/
+├── main.py                     # Entry point script
+├── utils.py                    # Autoencoder model, loaders, visualizations
+├── classifier_utils.py         # Classifier model, training & metrics
+├── README.md                   # This file
+├── autoencoder_fashionmnist.pth    # (Optional) Trained AE model
+├── classifier_fashionmnist.pth     # (Optional) Trained classifier model
+└── images/                     # Plots and sample outputs (optional)
 
 ## 🛠️ Autoencoder Details
 
