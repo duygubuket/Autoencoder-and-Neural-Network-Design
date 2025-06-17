@@ -18,8 +18,6 @@ fashion-mnist-hw2/
 ├── utils.py                    # Autoencoder model, loaders, visualizations
 ├── classifier_utils.py         # Classifier model, training & metrics
 ├── README.md                   # This file
-├── autoencoder_fashionmnist.pth    # (Optional) Trained AE model
-├── classifier_fashionmnist.pth     # (Optional) Trained classifier model
 └── images/                     # Plots and sample outputs (optional)
 
 ## 🛠️ Autoencoder Details
